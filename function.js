@@ -20,3 +20,5 @@ function fonctionJavascript(name, number){
     console.log(message);
 }
 fonctionJavascript("Eva", 12);
+
+// no need to precise .toString to concanate one data formated "int" (number) with other datas formated "string"
