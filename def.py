@@ -10,3 +10,15 @@ def say_hello(name):
 say_hello("Tom")
 say_hello("Karl")
 say_hello("Greg")
+
+def fonction_python():
+    print("Eva")
+    print(12)
+
+fonction_python()
+
+def fonction_python(name, number):
+    message = "Hello "+ name + " , your favorite number is " + str(number)
+    print(message)
+
+fonction_python("Eva", 12)
